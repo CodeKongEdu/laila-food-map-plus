@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#171626" />
+  <meta name="description" content="Um site pessoal feito para a Laila: bonito, interativo e pensado para descobrir o que ela realmente gosta de comer." />
+  <meta property="og:title" content="Laila — Nosso Mapa de Comidas" />
+  <meta property="og:description" content="Um cantinho feito pelo Du para entender, de verdade, o que a Laila gosta de comer." />
+  <title>Laila — Nosso Mapa de Comidas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="assets/brand/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <dialog id="welcomeDialog" class="welcome-dialog">
+    <div class="welcome-orbit" aria-hidden="true">☾</div>
+    <span class="eyebrow">um negócio só nosso</span>
+    <h2>Oi, meu amor.</h2>
+    <p>Eu podia simplesmente te mandar uma lista chata. Mas aí não teria graça nenhuma, né? Então fiz isso aqui com carinho para descobrir direitinho o que você gosta de comer — e parar de ficar chutando kkkkk.</p>
+    <div class="welcome-chips">
+      <span>🥝 kiwi sob proteção</span>
+      <span>🌽 milho inocentado</span>
+      <span>⚡ lado branco da força</span>
+    </div>
+    <button id="welcomeStart" class="primary-btn welcome-start" type="button">Tá bom, Du. Vamos ver isso <span>↘</span></button>
+    <button id="welcomePeek" class="text-btn welcome-peek" type="button">deixa eu só olhar primeiro</button>
+  </dialog>
+
+  <header class="site-header">
+    <a href="#inicio" class="brand" aria-label="Início">
+      <span class="brand-mark">☾</span>
+      <span class="brand-copy"><strong>Laila</strong><small>mapa de comidas</small></span>
+    </a>
+    <div class="header-right">
+      <span class="save-state" id="saveState"><i></i> salvo</span>
+      <a href="#comidas" class="header-link">ir para comidas ↓</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-bg-orb orb-one"></div>
+      <div class="hero-bg-orb orb-two"></div>
+      <div class="hero-inner shell">
+        <div class="hero-copy">
+          <div class="tiny-badge"><span>☾</span> feito para meu amor — Laila, te amo</div>
+          <h1>Meu amor, deixa eu finalmente aprender o que você <em>gosta de verdade</em>.</h1>
+          <p class="hero-text">Fiz esse cantinho para entender você sem adivinhar: o que você gosta, o que come de boa, o que é “mais ou menos” e o que realmente não entra no prato nem com negociação.</p>
+          <p class="hero-note">Sem calorias, sem quantidade e sem resposta certa. Só vai sendo você, princesa. Eu cuido da parte chata depois — aqui é só você me contar seu gosto de verdade.</p>
+          <div class="hero-actions">
+            <button class="primary-btn" type="button" data-scroll="comidas">Vem, começa por aqui <span>↘</span></button>
+            <span class="microcopy">se fechar, fica salvo neste aparelho</span>
+          </div>
+          <div class="inside-jokes" aria-label="Coisas nossas">
+            <span>🥝 kiwi é bom, sim</span>
+            <span>🌽 milho segue inocente</span>
+            <span>⚡ Monster branco: lado branco da força</span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Composição visual com kiwi, milho e lua">
+          <div class="moon-scene">
+            <div class="stars">✦　·　✧　·　✦</div>
+            <div class="crescent">☾</div>
+            <div class="moon-caption"><small>referência oficial</small><strong>Lua de Morango</strong><span>o nome pode ficar. o morango, nem tanto.</span></div>
+          </div>
+          <figure class="photo-card kiwi-card">
+            <img src="assets/foods/01-frutas/kiwi.webp" alt="Kiwi em close" loading="eager" />
+            <figcaption><span>🥝</span><strong>kiwi</strong><small>esse tem defesa</small></figcaption>
+          </figure>
+          <figure class="photo-card corn-card">
+            <img src="assets/foods/02-verduras-e-legumes/milho.webp" alt="Milho em close" loading="eager" />
+            <figcaption><span>🌽</span><strong>milho</strong><small>sem espaço para recurso</small></figcaption>
+          </figure>
+          <figure class="photo-card berry-card">
+            <img src="assets/foods/01-frutas/morango.webp" alt="Morangos sobre uma mesa" loading="eager" />
+            <figcaption><span>🍓</span><strong>morango</strong><small>continua na lista de suspeitos</small></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="how shell">
+      <div class="section-kicker">é bem simples</div>
+      <div class="how-grid">
+        <article><span>01</span><div><strong>Procura ou navega</strong><p>Tem categorias e busca. A lista foi limpa para não repetir ovo, leite, peixe, sucos e outras variações desnecessárias.</p></div></article>
+        <article><span>02</span><div><strong>Marca como sente</strong><p>Gosto, como de boa, mais ou menos ou não como.</p></div></article>
+        <article><span>03</span><div><strong>Me conta os detalhes</strong><p>Marcas, pratos específicos e coisas que uma lista não explica.</p></div></article>
+      </div>
+    </section>
+
+    <section class="interactive-intro shell">
+      <div class="interactive-card">
+        <div>
+          <span class="eyebrow">dois jeitos de responder</span>
+          <h2>Quer fazer rapidinho ou fuçar tudo?</h2>
+          <p>No <strong>modo rápido</strong>, aparece uma comida por vez e você só vai julgando. No <strong>modo lista</strong>, dá para navegar com calma.</p>
+        </div>
+        <div class="mode-preview" aria-hidden="true">
+          <div class="mini-card"><span>🥝</span><strong>Kiwi</strong><small>hmm… decisão importante</small></div>
+          <div class="mini-actions"><i>✓</i><i>•</i><i>~</i><i>×</i></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="comidas" class="foods-section">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">seu gosto, sem complicar</span>
+            <h2>O que entra no prato da Laila?</h2>
+            <p>Marca só o que fizer sentido. O objetivo é entender você, não preencher uma prova. Fruta já vale como referência para suco/vitamina; se alguma versão específica mudar tudo, me conta nos detalhes.</p>
+          </div>
+          <div class="marked-counter"><strong id="answeredCount">0</strong><span>marcados</span></div>
+        </div>
+
+        <div class="experience-switch" role="group" aria-label="Modo de resposta">
+          <button id="quickModeBtn" class="experience-btn active" type="button"><span>✦</span><strong>Modo rápido</strong><small>uma comida por vez</small></button>
+          <button id="listModeBtn" class="experience-btn" type="button"><span>☷</span><strong>Modo lista</strong><small>ver tudo da categoria</small></button>
+        </div>
+
+        <div class="food-controls" id="foodControls">
+          <label class="search-box">
+            <span>⌕</span>
+            <input id="foodSearch" type="search" placeholder="Buscar arroz, kiwi, macarrão, Monster…" autocomplete="off" />
+            <kbd>⌘ K</kbd>
+          </label>
+          <button id="unansweredToggle" class="filter-btn" type="button" aria-pressed="false">mostrar só não marcados</button>
+        </div>
+
+        <div class="status-guide">
+          <span class="guide-title">Em cada comida:</span>
+          <span><i class="g-like">✓</i> Gosto</span>
+          <span><i class="g-eat">•</i> Como de boa</span>
+          <span><i class="g-meh">~</i> Mais ou menos</span>
+          <span><i class="g-no">×</i> Não como</span>
+        </div>
+
+        <nav id="categoryNav" class="category-nav" aria-label="Categorias de alimentos"></nav>
+        <div id="categorySpotlight" class="category-spotlight"></div>
+
+        <section id="quickMode" class="quick-mode" aria-live="polite">
+          <div class="quick-stage">
+            <div class="quick-progress"><span id="quickProgressText">1 de 1</span><div><i id="quickProgressBar"></i></div></div>
+            <article id="quickCard" class="quick-card">
+              <div class="quick-card-glow" aria-hidden="true"></div>
+              <div id="quickFoodEmoji" class="quick-food-emoji">🥝</div>
+              <small id="quickFoodCategory">Frutas</small>
+              <h3 id="quickFoodName">Kiwi</h3>
+              <p id="quickFoodNote">esse tem defesa 🥝</p>
+              <div class="quick-actions">
+                <button type="button" data-quick-status="like"><span>✓</span><strong>Gosto</strong></button>
+                <button type="button" data-quick-status="eat"><span>•</span><strong>Como</strong></button>
+                <button type="button" data-quick-status="meh"><span>~</span><strong>Mais ou menos</strong></button>
+                <button type="button" data-quick-status="no"><span>×</span><strong>Não como</strong></button>
+              </div>
+            </article>
+            <div class="quick-nav">
+              <button id="quickPrev" type="button">← voltar</button>
+              <button id="quickSkip" type="button">pular por enquanto</button>
+              <button id="quickNext" type="button">próxima →</button>
+            </div>
+          </div>
+          <aside class="du-note-panel">
+            <span class="du-avatar">D</span>
+            <div>
+              <small>Du tá dizendo</small>
+              <p id="duInlineMessage">Vai no seu ritmo, meu amor. Não precisa marcar o que você não souber.</p>
+            </div>
+          </aside>
+        </section>
+
+        <div id="listMode" class="list-mode" hidden>
+          <div id="foodGrid" class="food-grid"></div>
+        </div>
+
+        <div class="empty-state" id="emptyState" hidden>
+          <span>🍽️</span><strong>Nada apareceu aqui.</strong><p>Tenta outro termo ou limpa o filtro.</p>
+        </div>
+
+        <article class="custom-food">
+          <div class="custom-copy">
+            <span class="eyebrow">não achei aqui</span>
+            <h3>Tem uma comida, marca ou receita muito específica?</h3>
+            <p>Coloca do jeito que você chama. Vale “aquele lanche”, “o macarrão de tal lugar”, marca de iogurte, receita de casa…</p>
+          </div>
+          <form id="customFoodForm" class="custom-form">
+            <input id="customFoodName" maxlength="80" required placeholder="Ex.: macarrão que meu amor faz" />
+            <div class="custom-status" id="customStatusPicker">
+              <button type="button" data-status="like">✓ Gosto</button>
+              <button type="button" data-status="eat">• Como</button>
+              <button type="button" data-status="meh">~ Mais ou menos</button>
+              <button type="button" data-status="no">× Não como</button>
+            </div>
+            <button class="secondary-btn" type="submit">Adicionar à lista</button>
+          </form>
+          <div id="customFoodList" class="custom-list"></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="detalhes" class="details-section">
+      <div class="shell">
+        <div class="section-heading compact">
+          <div>
+            <span class="eyebrow">coisas que a lista não sabe</span>
+            <h2>Me conta o resto, amor.</h2>
+            <p>Aqui é mais livre. Responde só o que realmente importa para você.</p>
+          </div>
+        </div>
+
+        <div class="detail-grid">
+          <article class="detail-card big">
+            <span class="detail-icon">🍝</span>
+            <label for="favoriteMeals">Quais pratos você gosta muito?</label>
+            <p>Pode mandar vários, separados por vírgula.</p>
+            <textarea id="favoriteMeals" rows="4" placeholder="Ex.: strogonoff, macarrão ao molho branco, pizza…"></textarea>
+          </article>
+
+          <article class="detail-card">
+            <span class="detail-icon">🥤</span>
+            <label for="favoriteDrinks">Bebidas que você gosta</label>
+            <p>Sim, Monster branco pode entrar. Eu já aceitei.</p>
+            <textarea id="favoriteDrinks" rows="4" placeholder="Ex.: água, suco de uva, Monster branco…"></textarea>
+          </article>
+
+          <article class="detail-card">
+            <span class="detail-icon">🚫</span>
+            <label for="hardNo">Coisas que você não quer nem por decreto</label>
+            <p>O espaço oficial do morango, se quiser.</p>
+            <textarea id="hardNo" rows="4" placeholder="Ex.: morango, fígado, tal molho…"></textarea>
+          </article>
+
+          <article class="detail-card">
+            <span class="detail-icon">🏷️</span>
+            <label for="brands">Marcas ou versões que fazem diferença</label>
+            <p>Às vezes você gosta de um alimento, mas só de uma versão específica.</p>
+            <textarea id="brands" rows="4" placeholder="Ex.: tal iogurte, tal refrigerante, tal molho…"></textarea>
+          </article>
+
+          <article class="detail-card">
+            <span class="detail-icon">🧩</span>
+            <label for="textures">Texturas ou jeitos de preparar que mudam tudo</label>
+            <p>Frito, assado, crocante, muito mole, com molho, sem molho…</p>
+            <textarea id="textures" rows="4" placeholder="Ex.: gosto de batata crocante, mas purê não curto…"></textarea>
+          </article>
+
+          <article class="detail-card warning big">
+            <span class="detail-icon">⚠️</span>
+            <label for="restrictions">Alguma alergia, intolerância ou alimento que te faz mal?</label>
+            <p>Se não tiver nada conhecido, pode escrever “nenhuma”.</p>
+            <textarea id="restrictions" rows="4" placeholder="Ex.: nenhuma / lactose / amendoim…"></textarea>
+          </article>
+
+          <article class="detail-card big note-card">
+            <div>
+              <span class="detail-icon">☾</span>
+              <label for="notes">Tem alguma coisa que eu não perguntei?</label>
+              <p>Me conta. Prometo usar a informação para o bem.</p>
+            </div>
+            <textarea id="notes" rows="5" placeholder="Escreve do seu jeito…"></textarea>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div class="footer-copy"><span>☾</span><div><strong>feito para a Laila</strong><small>com carinho, kiwi, milho e escolhas questionáveis de energético · Laila, te amo</small></div></div>
+      <button id="downloadBtn" class="text-btn" type="button">baixar JSON de backup</button>
+    </div>
+  </footer>
+
+  <div id="duCompanion" class="du-companion" role="status" aria-live="polite">
+    <span class="du-avatar">D</span>
+    <div><small>Du</small><p id="duCompanionText">Tô de olho nas escolhas, viu? kkkkk</p></div>
+    <button id="duCompanionClose" type="button" aria-label="Fechar mensagem">×</button>
+  </div>
+
+  <div class="submit-dock" id="submitDock">
+    <div class="dock-info"><span id="dockCount">0</span><div><strong id="dockTitle">já aprendi algumas coisas</strong><small id="dockSubtitle">continua, princesa</small></div></div>
+    <button id="submitBtn" class="submit-btn" type="button">Enviar respostas <span>↗</span></button>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <dialog id="successDialog" class="success-dialog">
+    <button id="closeDialog" class="dialog-close" aria-label="Fechar">×</button>
+    <div class="success-moon">☾</div>
+    <span class="eyebrow">deu certo</span>
+    <h2>Pronto, meu amor.</h2>
+    <p>Recebi suas respostas. Agora deixa comigo que eu organizo tudo direitinho depois.</p>
+    <div class="success-joke">🥝 kiwi: mantido sob proteção especial</div>
+    <button id="dialogOk" class="primary-btn" type="button">Fechou ✦</button>
+  </dialog>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+  <script src="foods.js"></script>
+  <script src="food-media.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

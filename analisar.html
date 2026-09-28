@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Analisar respostas — Laila</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="assets/brand/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png" />
+<style>
+    :root{--bg:#f6f5f9;--ink:#171622;--muted:#726f7d;--line:#e5e2eb;--night:#171626;--violet:#6f5df5}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Manrope,sans-serif}.wrap{width:min(1050px,calc(100% - 32px));margin:60px auto}.head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:24px}.eyebrow{font-size:10px;text-transform:uppercase;letter-spacing:.16em;color:var(--violet);font-weight:800}.head h1{font-family:'Instrument Serif',serif;font-size:54px;font-weight:400;margin:6px 0}.head p{color:var(--muted);font-size:13px;max-width:620px}.upload{background:#fff;border:1px solid var(--line);border-radius:22px;padding:18px}.upload input{width:100%}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:16px}.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:20px}.card h2{font-size:14px;margin:0 0 10px}.chips{display:flex;gap:6px;flex-wrap:wrap}.chip{border-radius:999px;padding:7px 10px;font-size:10px;font-weight:700;background:#f1eff7}.like{background:#edf7e2;color:#567b34}.eat{background:#efedff;color:#5b49ce}.meh{background:#f1eff2;color:#625d66}.no{background:#fff0ef;color:#ad4741}.details{grid-column:1/-1}.details dl{display:grid;grid-template-columns:180px 1fr;gap:8px 16px;font-size:12px}.details dt{font-weight:800}.details dd{margin:0;color:var(--muted);white-space:pre-wrap}.empty{color:var(--muted);font-size:11px}@media(max-width:700px){.grid{grid-template-columns:1fr}.details{grid-column:auto}.details dl{grid-template-columns:1fr}.head{align-items:flex-start;flex-direction:column}.head h1{font-size:42px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="head"><div><span class="eyebrow">uso local</span><h1>Analisar resposta</h1><p>Carregue o JSON baixado do site ou copie o campo <strong>payload</strong> do Supabase para um arquivo JSON. Esta página não possui chave administrativa nem lê o banco diretamente.</p></div></div>
+    <label class="upload">Abrir JSON da resposta<br><br><input id="file" type="file" accept="application/json,.json"></label>
+    <section id="result" class="grid" hidden></section>
+  </main>
+  <script>
+    const labels={like:'Gosto',eat:'Como de boa',meh:'Mais ou menos',no:'Não como'};
+    const result=document.querySelector('#result');
+    function esc(v=''){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+    function render(data){const payload=data.payload||data;const groups=payload.groupedPreferences||{};result.innerHTML='';['like','eat','meh','no'].forEach(key=>{const card=document.createElement('article');card.className='card';const list=groups[key]||((payload.foodPreferences||[]).filter(x=>x.status===key).map(x=>x.name));card.innerHTML=`<h2>${labels[key]} · ${list.length}</h2><div class="chips">${list.length?list.map(x=>`<span class="chip ${key}">${esc(x)}</span>`).join(''):'<span class="empty">nenhum item</span>'}</div>`;result.append(card)});const d=payload.details||{};const detail=document.createElement('article');detail.className='card details';const rows=[['Pratos favoritos',d.favoriteMeals],['Bebidas',d.favoriteDrinks],['Não quer comer',d.hardNo],['Marcas/versões',d.brands],['Texturas/preparo',d.textures],['Restrições',d.restrictions],['Observações',d.notes]];detail.innerHTML='<h2>Detalhes</h2><dl>'+rows.map(([k,v])=>`<dt>${k}</dt><dd>${esc(v||'—')}</dd>`).join('')+'</dl>';result.append(detail);result.hidden=false}
+    document.querySelector('#file').addEventListener('change',async e=>{const f=e.target.files[0];if(!f)return;try{render(JSON.parse(await f.text()))}catch{alert('JSON inválido.')}});
+  </script>
+</body>
+</html>

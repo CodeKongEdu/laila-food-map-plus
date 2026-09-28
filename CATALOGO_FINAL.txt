@@ -1,0 +1,221 @@
+Morango
+Banana
+Maçã
+Pera
+Uva
+Laranja
+Mexerica
+Limão
+Abacaxi
+Manga
+Mamão
+Melancia
+Melão
+Kiwi
+Maracujá
+Goiaba
+Acerola
+Pêssego
+Ameixa
+Cereja
+Framboesa
+Mirtilo
+Amora
+Coco
+Abacate
+Caqui
+Figo
+Jabuticaba
+Pitaya
+Carambola
+Alface
+Rúcula
+Agrião
+Couve
+Espinafre
+Repolho
+Acelga
+Brócolis
+Couve-flor
+Tomate
+Cenoura
+Beterraba
+Pepino
+Abobrinha
+Berinjela
+Chuchu
+Vagem
+Quiabo
+Pimentão
+Cebola
+Alho
+Milho
+Ervilha
+Palmito
+Cogumelo
+Abóbora
+Mandioca
+Batata
+Batata-doce
+Inhame
+Arroz
+Feijão
+Lentilha
+Grão-de-bico
+Aveia
+Granola
+Quinoa
+Cuscuz
+Farofa
+Macarrão
+Lasanha
+Nhoque
+Ravioli
+Panqueca salgada
+Risoto
+Polenta
+Pão
+Tapioca
+Pão de queijo
+Torrada
+Wrap
+Cereal matinal
+Frango
+Nuggets
+Carne bovina
+Carne moída
+Carne de panela
+Hambúrguer
+Linguiça
+Salsicha
+Bacon
+Costela
+Carne suína
+Peixe
+Atum
+Sardinha
+Salmão
+Camarão
+Ovo
+Tofu
+Proteína de soja
+Peito de peru
+Presunto
+Leite
+Bebida vegetal
+Iogurte
+Queijo
+Parmesão
+Requeijão
+Cream cheese
+Cottage
+Ricota
+Manteiga
+Margarina
+Creme de leite
+Café
+Café com leite
+Cappuccino
+Chocolate quente
+Achocolatado
+Sanduíche natural
+Misto quente
+Pão na chapa
+Bolo
+Croissant
+Bisnaguinha
+Bolacha água e sal
+Bolacha recheada
+Wafer
+Cookies
+Rosquinha
+Barra de cereal
+Pipoca
+Amendoim
+Amendoim japonês
+Castanhas
+Paçoca
+Chips
+Cracker de queijo
+Salgadinho
+Salgadinho de queijo
+Coxinha
+Esfiha
+Empada
+Pastel
+Kibe
+Strogonoff
+Parmegiana
+Feijoada
+Purê de batata
+Escondidinho
+Yakisoba
+Sushi
+Temaki
+Pizza
+Hot dog
+Tacos
+Burrito
+Sopa
+Caldo
+Salada completa
+Frango com batata
+Carne com legumes
+Macarrão com carne moída
+Arroz carreteiro
+Galinhada
+Churrasco
+Chocolate
+Bombom
+Brigadeiro
+Beijinho
+Pudim
+Mousse
+Sorvete
+Açaí
+Milk-shake
+Doce de leite
+Goiabada
+Pé de moleque
+Bala
+Chiclete
+Fini
+Pirulito
+Brownie
+Cheesecake
+Torta de limão
+Torta de morango
+Churros
+Donut
+Gelatina
+Marshmallow
+Pavê
+Pão de mel
+Água
+Água com gás
+Refrigerante
+Chá
+Água de coco
+Energético
+Monster branco
+Monster tradicional
+Isotônico
+Ketchup
+Mostarda
+Maionese
+Barbecue
+Molho de alho
+Molho de pimenta
+Azeite
+Vinagre
+Orégano
+Cheiro-verde
+Coentro
+Pimenta-do-reino
+Páprica
+Canela
+Mel
+Geleia
+Nutella
+Leite condensado
+Granulado

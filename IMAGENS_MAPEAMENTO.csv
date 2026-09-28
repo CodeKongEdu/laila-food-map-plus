@@ -1,0 +1,222 @@
+﻿categoria,item_site,imagem_origem,arquivo_final,lote_origem,posicao_no_lote
+Frutas,Morango,Morango,assets/foods/01-frutas/morango.webp,,1
+Frutas,Banana,Banana,assets/foods/01-frutas/banana.webp,,2
+Frutas,Maçã,Maçã,assets/foods/01-frutas/maca.webp,,3
+Frutas,Pera,Pera,assets/foods/01-frutas/pera.webp,,4
+Frutas,Uva,Uva,assets/foods/01-frutas/uva.webp,,5
+Frutas,Laranja,Laranja,assets/foods/01-frutas/laranja.webp,,6
+Frutas,Mexerica,Mexerica,assets/foods/01-frutas/mexerica.webp,,7
+Frutas,Limão,Limão,assets/foods/01-frutas/limao.webp,,8
+Frutas,Abacaxi,Abacaxi,assets/foods/01-frutas/abacaxi.webp,,9
+Frutas,Manga,Manga,assets/foods/01-frutas/manga.webp,,10
+Frutas,Mamão,Mamão,assets/foods/01-frutas/mamao.webp,,11
+Frutas,Melancia,Melancia,assets/foods/01-frutas/melancia.webp,,12
+Frutas,Melão,Melão,assets/foods/01-frutas/melao.webp,,13
+Frutas,Kiwi,Kiwi,assets/foods/01-frutas/kiwi.webp,,14
+Frutas,Maracujá,Maracujá,assets/foods/01-frutas/maracuja.webp,,15
+Frutas,Goiaba,Goiaba,assets/foods/01-frutas/goiaba.webp,,16
+Frutas,Acerola,Acerola,assets/foods/01-frutas/acerola.webp,,17
+Frutas,Pêssego,Pêssego,assets/foods/01-frutas/pessego.webp,,18
+Frutas,Ameixa,Ameixa,assets/foods/01-frutas/ameixa.webp,,19
+Frutas,Cereja,Cereja,assets/foods/01-frutas/cereja.webp,,20
+Frutas,Framboesa,Framboesa,assets/foods/01-frutas/framboesa.webp,,21
+Frutas,Mirtilo,Mirtilo,assets/foods/01-frutas/mirtilo.webp,,22
+Frutas,Amora,Amora,assets/foods/01-frutas/amora.webp,,23
+Frutas,Coco,Coco,assets/foods/01-frutas/coco.webp,,24
+Frutas,Abacate,Abacate,assets/foods/01-frutas/abacate.webp,,25
+Frutas,Caqui,Caqui,assets/foods/01-frutas/caqui.webp,,26
+Frutas,Figo,Figo,assets/foods/01-frutas/figo.webp,,27
+Frutas,Jabuticaba,Jabuticaba,assets/foods/01-frutas/jabuticaba.webp,,28
+Frutas,Pitaya,Pitaya,assets/foods/01-frutas/pitaya.webp,,29
+Frutas,Carambola,Carambola,assets/foods/01-frutas/carambola.webp,,30
+Verduras & legumes,Alface,Alface,assets/foods/02-verduras-e-legumes/alface.webp,,31
+Verduras & legumes,Rúcula,Rúcula,assets/foods/02-verduras-e-legumes/rucula.webp,,32
+Verduras & legumes,Agrião,Agrião,assets/foods/02-verduras-e-legumes/agriao.webp,,33
+Verduras & legumes,Couve,Couve,assets/foods/02-verduras-e-legumes/couve.webp,,34
+Verduras & legumes,Espinafre,Espinafre,assets/foods/02-verduras-e-legumes/espinafre.webp,,35
+Verduras & legumes,Repolho,Repolho,assets/foods/02-verduras-e-legumes/repolho.webp,,36
+Verduras & legumes,Acelga,Acelga,assets/foods/02-verduras-e-legumes/acelga.webp,,37
+Verduras & legumes,Brócolis,Brócolis,assets/foods/02-verduras-e-legumes/brocolis.webp,,38
+Verduras & legumes,Couve-flor,Couve-flor,assets/foods/02-verduras-e-legumes/couve-flor.webp,,39
+Verduras & legumes,Tomate,Tomate,assets/foods/02-verduras-e-legumes/tomate.webp,,40
+Verduras & legumes,Cenoura,Cenoura,assets/foods/02-verduras-e-legumes/cenoura.webp,,41
+Verduras & legumes,Beterraba,Beterraba,assets/foods/02-verduras-e-legumes/beterraba.webp,,42
+Verduras & legumes,Pepino,Pepino,assets/foods/02-verduras-e-legumes/pepino.webp,,43
+Verduras & legumes,Abobrinha,Abobrinha,assets/foods/02-verduras-e-legumes/abobrinha.webp,,44
+Verduras & legumes,Berinjela,Berinjela,assets/foods/02-verduras-e-legumes/berinjela.webp,,45
+Verduras & legumes,Chuchu,Chuchu,assets/foods/02-verduras-e-legumes/chuchu.webp,,46
+Verduras & legumes,Vagem,Vagem,assets/foods/02-verduras-e-legumes/vagem.webp,,47
+Verduras & legumes,Quiabo,Quiabo,assets/foods/02-verduras-e-legumes/quiabo.webp,,48
+Verduras & legumes,Pimentão,Pimentão,assets/foods/02-verduras-e-legumes/pimentao.webp,,49
+Verduras & legumes,Cebola,Cebola,assets/foods/02-verduras-e-legumes/cebola.webp,,50
+Verduras & legumes,Alho,Alho,assets/foods/02-verduras-e-legumes/alho.webp,,51
+Verduras & legumes,Milho,Milho,assets/foods/02-verduras-e-legumes/milho.webp,,52
+Verduras & legumes,Ervilha,Ervilha,assets/foods/02-verduras-e-legumes/ervilha.webp,,53
+Verduras & legumes,Palmito,Palmito,assets/foods/02-verduras-e-legumes/palmito.webp,,54
+Verduras & legumes,Cogumelo,Cogumelo,assets/foods/02-verduras-e-legumes/cogumelo.webp,,55
+Verduras & legumes,Abóbora,Abóbora,assets/foods/02-verduras-e-legumes/abobora.webp,,56
+Verduras & legumes,Mandioca,Mandioca,assets/foods/02-verduras-e-legumes/mandioca.webp,,57
+Verduras & legumes,Batata,Batata,assets/foods/02-verduras-e-legumes/batata.webp,,58
+Verduras & legumes,Batata-doce,Batata-doce,assets/foods/02-verduras-e-legumes/batata-doce.webp,,59
+Verduras & legumes,Inhame,Inhame,assets/foods/02-verduras-e-legumes/inhame.webp,,60
+"Grãos, massas & pães",Arroz,Arroz,assets/foods/03-graos-massas-e-paes/arroz.webp,,61
+"Grãos, massas & pães",Feijão,Feijão,assets/foods/03-graos-massas-e-paes/feijao.webp,,62
+"Grãos, massas & pães",Lentilha,Lentilha,assets/foods/03-graos-massas-e-paes/lentilha.webp,,63
+"Grãos, massas & pães",Grão-de-bico,Grão-de-bico,assets/foods/03-graos-massas-e-paes/grao-de-bico.webp,,64
+"Grãos, massas & pães",Aveia,Aveia,assets/foods/03-graos-massas-e-paes/aveia.webp,,65
+"Grãos, massas & pães",Granola,Granola,assets/foods/03-graos-massas-e-paes/granola.webp,,66
+"Grãos, massas & pães",Quinoa,Quinoa,assets/foods/03-graos-massas-e-paes/quinoa.webp,,67
+"Grãos, massas & pães",Cuscuz,Cuscuz,assets/foods/03-graos-massas-e-paes/cuscuz.webp,,68
+"Grãos, massas & pães",Farofa,Farofa,assets/foods/03-graos-massas-e-paes/farofa.webp,,69
+"Grãos, massas & pães",Macarrão,Macarrão,assets/foods/03-graos-massas-e-paes/macarrao.webp,,70
+"Grãos, massas & pães",Lasanha,Lasanha,assets/foods/03-graos-massas-e-paes/lasanha.webp,,71
+"Grãos, massas & pães",Nhoque,Nhoque,assets/foods/03-graos-massas-e-paes/nhoque.webp,,72
+"Grãos, massas & pães",Ravioli,Ravioli,assets/foods/03-graos-massas-e-paes/ravioli.webp,,73
+"Grãos, massas & pães",Panqueca salgada,Panqueca salgada,assets/foods/03-graos-massas-e-paes/panqueca-salgada.webp,,74
+"Grãos, massas & pães",Risoto,Risoto,assets/foods/03-graos-massas-e-paes/risoto.webp,,75
+"Grãos, massas & pães",Polenta,Polenta,assets/foods/03-graos-massas-e-paes/polenta.webp,,76
+"Grãos, massas & pães",Pão,Pão,assets/foods/03-graos-massas-e-paes/pao.webp,,77
+"Grãos, massas & pães",Tapioca,Tapioca,assets/foods/03-graos-massas-e-paes/tapioca.webp,,78
+"Grãos, massas & pães",Pão de queijo,Pão de queijo,assets/foods/03-graos-massas-e-paes/pao-de-queijo.webp,,79
+"Grãos, massas & pães",Torrada,Torrada,assets/foods/03-graos-massas-e-paes/torrada.webp,,80
+"Grãos, massas & pães",Wrap,Wrap,assets/foods/03-graos-massas-e-paes/wrap.webp,,81
+"Grãos, massas & pães",Cereal matinal,Cereal matinal,assets/foods/03-graos-massas-e-paes/cereal-matinal.webp,,82
+Carnes & proteínas,Frango,Frango,assets/foods/04-carnes-e-proteinas/frango.webp,,83
+Carnes & proteínas,Nuggets,Nuggets,assets/foods/04-carnes-e-proteinas/nuggets.webp,,84
+Carnes & proteínas,Carne bovina,Carne bovina,assets/foods/04-carnes-e-proteinas/carne-bovina.webp,,85
+Carnes & proteínas,Carne moída,Carne moída,assets/foods/04-carnes-e-proteinas/carne-moida.webp,,86
+Carnes & proteínas,Carne de panela,Carne de panela,assets/foods/04-carnes-e-proteinas/carne-de-panela.webp,,87
+Carnes & proteínas,Hambúrguer,Hambúrguer,assets/foods/04-carnes-e-proteinas/hamburguer.webp,,88
+Carnes & proteínas,Linguiça,Linguiça,assets/foods/04-carnes-e-proteinas/linguica.webp,,89
+Carnes & proteínas,Salsicha,Salsicha,assets/foods/04-carnes-e-proteinas/salsicha.webp,,90
+Carnes & proteínas,Bacon,Bacon,assets/foods/04-carnes-e-proteinas/bacon.webp,,91
+Carnes & proteínas,Costela,Costela,assets/foods/04-carnes-e-proteinas/costela.webp,,92
+Carnes & proteínas,Carne suína,Carne suína,assets/foods/04-carnes-e-proteinas/carne-suina.webp,,93
+Carnes & proteínas,Peixe,Peixe,assets/foods/04-carnes-e-proteinas/peixe.webp,,94
+Carnes & proteínas,Atum,Atum,assets/foods/04-carnes-e-proteinas/atum.webp,,95
+Carnes & proteínas,Sardinha,Sardinha,assets/foods/04-carnes-e-proteinas/sardinha.webp,,96
+Carnes & proteínas,Salmão,Salmão,assets/foods/04-carnes-e-proteinas/salmao.webp,,97
+Carnes & proteínas,Camarão,Camarão,assets/foods/04-carnes-e-proteinas/camarao.webp,,98
+Carnes & proteínas,Ovo,Ovo,assets/foods/04-carnes-e-proteinas/ovo.webp,,99
+Carnes & proteínas,Tofu,Tofu,assets/foods/04-carnes-e-proteinas/tofu.webp,,100
+Carnes & proteínas,Proteína de soja,Proteína de soja,assets/foods/04-carnes-e-proteinas/proteina-de-soja.webp,,101
+Carnes & proteínas,Peito de peru,Peito de peru,assets/foods/04-carnes-e-proteinas/peito-de-peru.webp,,102
+Carnes & proteínas,Presunto,Presunto,assets/foods/04-carnes-e-proteinas/presunto.webp,,103
+Laticínios & café da manhã,Leite,Leite,assets/foods/05-laticinios-e-cafe-da-manha/leite.webp,,104
+Laticínios & café da manhã,Bebida vegetal,Bebida vegetal,assets/foods/05-laticinios-e-cafe-da-manha/bebida-vegetal.webp,,105
+Laticínios & café da manhã,Iogurte,Iogurte,assets/foods/05-laticinios-e-cafe-da-manha/iogurte.webp,,106
+Laticínios & café da manhã,Queijo,Queijo,assets/foods/05-laticinios-e-cafe-da-manha/queijo.webp,,107
+Laticínios & café da manhã,Parmesão,Parmesão,assets/foods/05-laticinios-e-cafe-da-manha/parmesao.webp,,108
+Laticínios & café da manhã,Requeijão,Requeijão,assets/foods/05-laticinios-e-cafe-da-manha/requeijao.webp,,109
+Laticínios & café da manhã,Cream cheese,Cream cheese,assets/foods/05-laticinios-e-cafe-da-manha/cream-cheese.webp,,110
+Laticínios & café da manhã,Cottage,Cottage,assets/foods/05-laticinios-e-cafe-da-manha/cottage.webp,,111
+Laticínios & café da manhã,Ricota,Ricota,assets/foods/05-laticinios-e-cafe-da-manha/ricota.webp,,112
+Laticínios & café da manhã,Manteiga,Manteiga,assets/foods/05-laticinios-e-cafe-da-manha/manteiga.webp,,113
+Laticínios & café da manhã,Margarina,Margarina,assets/foods/05-laticinios-e-cafe-da-manha/margarina.webp,,114
+Laticínios & café da manhã,Creme de leite,Creme de leite,assets/foods/05-laticinios-e-cafe-da-manha/creme-de-leite.webp,,115
+Laticínios & café da manhã,Café,Café,assets/foods/05-laticinios-e-cafe-da-manha/cafe.webp,,116
+Laticínios & café da manhã,Café com leite,Café com leite,assets/foods/05-laticinios-e-cafe-da-manha/cafe-com-leite.webp,,117
+Laticínios & café da manhã,Cappuccino,Cappuccino,assets/foods/05-laticinios-e-cafe-da-manha/cappuccino.webp,,118
+Laticínios & café da manhã,Chocolate quente,Chocolate quente,assets/foods/05-laticinios-e-cafe-da-manha/chocolate-quente.webp,,119
+Laticínios & café da manhã,Achocolatado,Achocolatado,assets/foods/05-laticinios-e-cafe-da-manha/achocolatado.webp,,120
+Laticínios & café da manhã,Sanduíche natural,Sanduíche natural,assets/foods/05-laticinios-e-cafe-da-manha/sanduiche-natural.webp,,121
+Laticínios & café da manhã,Misto quente,Misto quente,assets/foods/05-laticinios-e-cafe-da-manha/misto-quente.webp,,122
+Laticínios & café da manhã,Pão na chapa,Pão na chapa,assets/foods/05-laticinios-e-cafe-da-manha/pao-na-chapa.webp,,123
+Laticínios & café da manhã,Bolo,Bolo,assets/foods/05-laticinios-e-cafe-da-manha/bolo.webp,,124
+Laticínios & café da manhã,Croissant,Croissant,assets/foods/05-laticinios-e-cafe-da-manha/croissant.webp,,125
+Laticínios & café da manhã,Bisnaguinha,Bisnaguinha,assets/foods/05-laticinios-e-cafe-da-manha/bisnaguinha.webp,,126
+Laticínios & café da manhã,Bolacha água e sal,Bolacha água e sal,assets/foods/05-laticinios-e-cafe-da-manha/bolacha-agua-e-sal.webp,,127
+Laticínios & café da manhã,Bolacha recheada,Bolacha recheada,assets/foods/05-laticinios-e-cafe-da-manha/bolacha-recheada.webp,,128
+Laticínios & café da manhã,Wafer,Wafer,assets/foods/05-laticinios-e-cafe-da-manha/wafer.webp,novo,129
+Laticínios & café da manhã,Cookies,Cookies,assets/foods/05-laticinios-e-cafe-da-manha/cookies.webp,,130
+Laticínios & café da manhã,Rosquinha,Rosquinha,assets/foods/05-laticinios-e-cafe-da-manha/rosquinha.webp,novo,131
+Laticínios & café da manhã,Barra de cereal,Barra de cereal,assets/foods/05-laticinios-e-cafe-da-manha/barra-de-cereal.webp,,132
+Laticínios & café da manhã,Pipoca,Pipoca,assets/foods/05-laticinios-e-cafe-da-manha/pipoca.webp,,133
+Laticínios & café da manhã,Amendoim,Amendoim,assets/foods/05-laticinios-e-cafe-da-manha/amendoim.webp,,134
+Laticínios & café da manhã,Amendoim japonês,Amendoim japonês,assets/foods/05-laticinios-e-cafe-da-manha/amendoim-japones.webp,novo,135
+Laticínios & café da manhã,Castanhas,Castanhas,assets/foods/05-laticinios-e-cafe-da-manha/castanhas.webp,,136
+Laticínios & café da manhã,Paçoca,Paçoca,assets/foods/05-laticinios-e-cafe-da-manha/pacoca.webp,,137
+Laticínios & café da manhã,Chips,Chips,assets/foods/05-laticinios-e-cafe-da-manha/chips.webp,,138
+Laticínios & café da manhã,Cracker de queijo,Cracker de queijo,assets/foods/05-laticinios-e-cafe-da-manha/cracker-de-queijo.webp,novo,139
+Laticínios & café da manhã,Salgadinho,Salgadinho,assets/foods/05-laticinios-e-cafe-da-manha/salgadinho.webp,,140
+Laticínios & café da manhã,Salgadinho de queijo,Salgadinho de queijo,assets/foods/05-laticinios-e-cafe-da-manha/salgadinho-de-queijo.webp,novo,141
+Pratos & refeições,Coxinha,Coxinha,assets/foods/06-pratos-e-refeicoes/coxinha.webp,,142
+Pratos & refeições,Esfiha,Esfiha,assets/foods/06-pratos-e-refeicoes/esfiha.webp,,143
+Pratos & refeições,Empada,Empada,assets/foods/06-pratos-e-refeicoes/empada.webp,,144
+Pratos & refeições,Pastel,Pastel,assets/foods/06-pratos-e-refeicoes/pastel.webp,,145
+Pratos & refeições,Kibe,Kibe,assets/foods/06-pratos-e-refeicoes/kibe.webp,,146
+Pratos & refeições,Strogonoff,Strogonoff,assets/foods/06-pratos-e-refeicoes/strogonoff.webp,,147
+Pratos & refeições,Parmegiana,Parmegiana,assets/foods/06-pratos-e-refeicoes/parmegiana.webp,,148
+Pratos & refeições,Feijoada,Feijoada,assets/foods/06-pratos-e-refeicoes/feijoada.webp,,149
+Pratos & refeições,Purê de batata,Purê de batata,assets/foods/06-pratos-e-refeicoes/pure-de-batata.webp,,150
+Pratos & refeições,Escondidinho,Escondidinho,assets/foods/06-pratos-e-refeicoes/escondidinho.webp,,151
+Pratos & refeições,Yakisoba,Yakisoba,assets/foods/06-pratos-e-refeicoes/yakisoba.webp,,152
+Pratos & refeições,Sushi,Sushi,assets/foods/06-pratos-e-refeicoes/sushi.webp,,153
+Pratos & refeições,Temaki,Temaki,assets/foods/06-pratos-e-refeicoes/temaki.webp,,154
+Pratos & refeições,Pizza,Pizza,assets/foods/06-pratos-e-refeicoes/pizza.webp,,155
+Pratos & refeições,Hot dog,Hot dog,assets/foods/06-pratos-e-refeicoes/hot-dog.webp,,156
+Pratos & refeições,Tacos,Tacos,assets/foods/06-pratos-e-refeicoes/tacos.webp,,157
+Pratos & refeições,Burrito,Burrito,assets/foods/06-pratos-e-refeicoes/burrito.webp,,158
+Pratos & refeições,Sopa,Sopa,assets/foods/06-pratos-e-refeicoes/sopa.webp,,159
+Pratos & refeições,Caldo,Caldo,assets/foods/06-pratos-e-refeicoes/caldo.webp,,160
+Pratos & refeições,Salada completa,Salada completa,assets/foods/06-pratos-e-refeicoes/salada-completa.webp,,161
+Pratos & refeições,Frango com batata,Frango com batata,assets/foods/06-pratos-e-refeicoes/frango-com-batata.webp,,162
+Pratos & refeições,Carne com legumes,Carne com legumes,assets/foods/06-pratos-e-refeicoes/carne-com-legumes.webp,,163
+Pratos & refeições,Macarrão com carne moída,Macarrão com carne moída,assets/foods/06-pratos-e-refeicoes/macarrao-com-carne-moida.webp,,164
+Pratos & refeições,Arroz carreteiro,Arroz carreteiro,assets/foods/06-pratos-e-refeicoes/arroz-carreteiro.webp,,165
+Pratos & refeições,Galinhada,Galinhada,assets/foods/06-pratos-e-refeicoes/galinhada.webp,,166
+Pratos & refeições,Churrasco,Churrasco,assets/foods/06-pratos-e-refeicoes/churrasco.webp,,167
+Doces & sobremesas,Chocolate,Chocolate,assets/foods/07-doces-e-sobremesas/chocolate.webp,,168
+Doces & sobremesas,Bombom,Bombom,assets/foods/07-doces-e-sobremesas/bombom.webp,novo,169
+Doces & sobremesas,Brigadeiro,Brigadeiro,assets/foods/07-doces-e-sobremesas/brigadeiro.webp,,170
+Doces & sobremesas,Beijinho,Beijinho,assets/foods/07-doces-e-sobremesas/beijinho.webp,,171
+Doces & sobremesas,Pudim,Pudim,assets/foods/07-doces-e-sobremesas/pudim.webp,,172
+Doces & sobremesas,Mousse,Mousse,assets/foods/07-doces-e-sobremesas/mousse.webp,,173
+Doces & sobremesas,Sorvete,Sorvete,assets/foods/07-doces-e-sobremesas/sorvete.webp,,174
+Doces & sobremesas,Açaí,Açaí,assets/foods/07-doces-e-sobremesas/acai.webp,,175
+Doces & sobremesas,Milk-shake,Milk-shake,assets/foods/07-doces-e-sobremesas/milk-shake.webp,,176
+Doces & sobremesas,Doce de leite,Doce de leite,assets/foods/07-doces-e-sobremesas/doce-de-leite.webp,,177
+Doces & sobremesas,Goiabada,Goiabada,assets/foods/07-doces-e-sobremesas/goiabada.webp,,178
+Doces & sobremesas,Pé de moleque,Pé de moleque,assets/foods/07-doces-e-sobremesas/pe-de-moleque.webp,,179
+Doces & sobremesas,Bala,Bala,assets/foods/07-doces-e-sobremesas/bala.webp,,180
+Doces & sobremesas,Chiclete,Chiclete,assets/foods/07-doces-e-sobremesas/chiclete.webp,,181
+Doces & sobremesas,Fini,Fini,assets/foods/07-doces-e-sobremesas/fini.webp,novo,182
+Doces & sobremesas,Pirulito,Pirulito,assets/foods/07-doces-e-sobremesas/pirulito.webp,novo,183
+Doces & sobremesas,Brownie,Brownie,assets/foods/07-doces-e-sobremesas/brownie.webp,,184
+Doces & sobremesas,Cheesecake,Cheesecake,assets/foods/07-doces-e-sobremesas/cheesecake.webp,,185
+Doces & sobremesas,Torta de limão,Torta de limão,assets/foods/07-doces-e-sobremesas/torta-de-limao.webp,,186
+Doces & sobremesas,Torta de morango,Torta de morango,assets/foods/07-doces-e-sobremesas/torta-de-morango.webp,,187
+Doces & sobremesas,Churros,Churros,assets/foods/07-doces-e-sobremesas/churros.webp,,188
+Doces & sobremesas,Donut,Donut,assets/foods/07-doces-e-sobremesas/donut.webp,,189
+Doces & sobremesas,Gelatina,Gelatina,assets/foods/07-doces-e-sobremesas/gelatina.webp,,190
+Doces & sobremesas,Marshmallow,Marshmallow,assets/foods/07-doces-e-sobremesas/marshmallow.webp,novo,191
+Doces & sobremesas,Pavê,Pavê,assets/foods/07-doces-e-sobremesas/pave.webp,,192
+Doces & sobremesas,Pão de mel,Pão de mel,assets/foods/07-doces-e-sobremesas/pao-de-mel.webp,novo,193
+Bebidas,Água,Água,assets/foods/08-bebidas/agua.webp,,194
+Bebidas,Água com gás,Água com gás,assets/foods/08-bebidas/agua-com-gas.webp,,195
+Bebidas,Refrigerante,Refrigerante,assets/foods/08-bebidas/refrigerante.webp,,196
+Bebidas,Chá,Chá,assets/foods/08-bebidas/cha.webp,,197
+Bebidas,Água de coco,Água de coco,assets/foods/08-bebidas/agua-de-coco.webp,,198
+Bebidas,Energético,Energético,assets/foods/08-bebidas/energetico.webp,,199
+Bebidas,Monster branco,Monster branco,assets/foods/08-bebidas/monster-branco.webp,,200
+Bebidas,Monster tradicional,Monster tradicional,assets/foods/08-bebidas/monster-tradicional.webp,,201
+Bebidas,Isotônico,Isotônico,assets/foods/08-bebidas/isotonico.webp,,202
+Temperos & extras,Ketchup,Ketchup,assets/foods/09-temperos-e-extras/ketchup.webp,,203
+Temperos & extras,Mostarda,Mostarda,assets/foods/09-temperos-e-extras/mostarda.webp,,204
+Temperos & extras,Maionese,Maionese,assets/foods/09-temperos-e-extras/maionese.webp,,205
+Temperos & extras,Barbecue,Barbecue,assets/foods/09-temperos-e-extras/barbecue.webp,,206
+Temperos & extras,Molho de alho,Molho de alho,assets/foods/09-temperos-e-extras/molho-de-alho.webp,,207
+Temperos & extras,Molho de pimenta,Molho de pimenta,assets/foods/09-temperos-e-extras/molho-de-pimenta.webp,,208
+Temperos & extras,Azeite,Azeite,assets/foods/09-temperos-e-extras/azeite.webp,,209
+Temperos & extras,Vinagre,Vinagre,assets/foods/09-temperos-e-extras/vinagre.webp,,210
+Temperos & extras,Orégano,Orégano,assets/foods/09-temperos-e-extras/oregano.webp,,211
+Temperos & extras,Cheiro-verde,Cheiro-verde,assets/foods/09-temperos-e-extras/cheiro-verde.webp,,212
+Temperos & extras,Coentro,Coentro,assets/foods/09-temperos-e-extras/coentro.webp,,213
+Temperos & extras,Pimenta-do-reino,Pimenta-do-reino,assets/foods/09-temperos-e-extras/pimenta-do-reino.webp,,214
+Temperos & extras,Páprica,Páprica,assets/foods/09-temperos-e-extras/paprica.webp,,215
+Temperos & extras,Canela,Canela,assets/foods/09-temperos-e-extras/canela.webp,,216
+Temperos & extras,Mel,Mel,assets/foods/09-temperos-e-extras/mel.webp,,217
+Temperos & extras,Geleia,Geleia,assets/foods/09-temperos-e-extras/geleia.webp,,218
+Temperos & extras,Nutella,Nutella,assets/foods/09-temperos-e-extras/nutella.webp,,219
+Temperos & extras,Leite condensado,Leite condensado,assets/foods/09-temperos-e-extras/leite-condensado.webp,,220
+Temperos & extras,Granulado,Granulado,assets/foods/09-temperos-e-extras/granulado.webp,,221
